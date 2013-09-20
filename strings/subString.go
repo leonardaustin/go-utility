@@ -5,7 +5,7 @@ import(
 	"regexp"
 )
 
-func subStringSearch(content []byte, startKeyword string, endKeyword string, removeWhiteSpace bool) string {
+func SubStringSearch(content []byte, startKeyword string, endKeyword string, removeWhiteSpace bool) string {
 
 	// Remvoe whitespace
 	if(removeWhiteSpace){
